@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+
 body {
     background-image: url("images/1234.jpg");
     margin: 0;
+    font-family: 'Merienda', cursive;
 }
 #navbar {
-    background: #999;
+    background: rgb(104, 17, 17);
     height: 50px;
     color: white;
     padding: 15px;
 }
 
 .container{
-    background-color: grey;
+    background-color: lightgray;
     box-sizing: border-box;
     padding: 35px;
     margin: 35px;
@@ -49,3 +52,11 @@ nav ul li a {
     color: white;
 }
 
+footer{
+    background: whitesmoke;
+    color: black;
+}
+
+.textalign {
+   text-align: center; 
+}
